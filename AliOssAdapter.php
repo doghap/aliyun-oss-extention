@@ -31,7 +31,8 @@ class AliOssAdapter extends \Jacobcyl\AliOSS\AliOssAdapter {
 	}
 
 	/**
-	 * 生成临时链接
+	 * 生成临时链接,
+	 * 使用 Storage::temporaryUrl() 函数时被调用
 	 *
 	 * @param       $path
 	 * @param       $expiration
